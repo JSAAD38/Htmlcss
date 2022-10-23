@@ -1,0 +1,58 @@
+.left {
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    display: inline-block;
+    
+}
+.left img{
+    width: 6%;
+}
+.mid {
+    display: block;
+    width: 36%;
+    margin: 20px auto;
+    
+}
+
+.right {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    display: inline-block;
+    
+
+} 
+
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 35px 24px;
+}
+.navbar li a:hover,.navbar li a:active {
+    text-decoration: underline;
+    color: grey;
+    
+}
+.btn{
+margin: 0px 9px;
+background-color: black;
+color: white;
+padding: 4px 14px;
+border: 2px solid gray;
+border-radius: 10px;
+font-size: 20px;
+cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgb(30, 30, 28);
+}
+
